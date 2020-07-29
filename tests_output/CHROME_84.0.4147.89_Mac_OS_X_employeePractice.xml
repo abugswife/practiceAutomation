@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="15"
+            failures="0"
+            tests="3">
+
+  <testsuite name="employeePractice"
+    errors="15" failures="0" hostname="" id="" package="employeePractice" skipped="0"
+    tests="3" time="171.3" timestamp="">
+  
+    <testcase name="Edit name on card" classname="employeePractice" time="60.61" assertions="0">
+    <error message="An error occurred while running .click() command on &lt;#saveBtn&gt;: " type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .click() command on &lt;#saveBtn&gt;: 
+    at ClickElement.noSuchElementError (/usr/local/lib/node_modules/nightwatch/lib/element/command.js:368:12)
+    at Object.errorHandler (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:64:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Edit phone on card" classname="employeePractice" time="61.87" assertions="0">
+    <error message="An error occurred while running .click() command on &lt;#saveBtn&gt;: " type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .click() command on &lt;#saveBtn&gt;: 
+    at ClickElement.noSuchElementError (/usr/local/lib/node_modules/nightwatch/lib/element/command.js:368:12)
+    at Object.errorHandler (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:64:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Edit title on card" classname="employeePractice" time="48.86" assertions="0">
+    <error message="An error occurred while running .click() command on &lt;#saveBtn&gt;:   (Session info: chrome=84.0.4147.89),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Mac OS X 10.15.6 x86_64); no such window: window was already closed" type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .click() command on &lt;#saveBtn&gt;:   (Session info: chrome=84.0.4147.89),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Mac OS X 10.15.6 x86_64); no such window: window was already closed
+    at ClickElement.noSuchElementError (/usr/local/lib/node_modules/nightwatch/lib/element/command.js:368:12)
+    at Object.errorHandler (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:64:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;li[name=&#34;empoyee1&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;input[name=&#34;nameEntry&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .clearValue() command on &lt;input[name=&#34;nameEntry&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;li[name=&#34;employee1&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;#saveBtn&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;li[name=&#34;empoyee1&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;input[name=&#34;phoneEntry&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .clearValue() command on &lt;input[name=&#34;phoneEntry&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;input[name=&#34;phoneEntry&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;#saveBtn&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;li[name=&#34;empoyee1&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;input[name=&#34;titleEntry&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;d668c5c734f05b6f975eee86fc6808e3&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .clearValue() command on &lt;input[name=&#34;titleEntry&#34;]&gt;:   (Session info: chrome=84.0.4147.89),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Mac OS X 10.15.6 x86_64); no such window: window was already closed
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;no such window: window was already closed&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=84.0.4147.89)&#34;,&#34;  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Mac OS X 10.15.6 x86_64)&#34;]},&#34;errorStatus&#34;:23,&#34;error&#34;:&#34;no such window: window was already closed&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;input[name=&#34;titleEntry&#34;]&gt;:   (Session info: chrome=84.0.4147.89),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Mac OS X 10.15.6 x86_64); no such window: window was already closed
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;no such window: window was already closed&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=84.0.4147.89)&#34;,&#34;  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Mac OS X 10.15.6 x86_64)&#34;]},&#34;errorStatus&#34;:23,&#34;error&#34;:&#34;no such window: window was already closed&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;#saveBtn&gt;:   (Session info: chrome=84.0.4147.89),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Mac OS X 10.15.6 x86_64); no such window: window was already closed
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;no such window: window was already closed&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=84.0.4147.89)&#34;,&#34;  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Mac OS X 10.15.6 x86_64)&#34;]},&#34;errorStatus&#34;:23,&#34;error&#34;:&#34;no such window: window was already closed&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
