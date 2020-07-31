@@ -1,17 +1,17 @@
-var bezosSucks = {}
+var starWars = {}
 module.exports = {
     beforeEach: browser => {
-        bezosSucks = browser.page.amazonPage()
-        bezosSucks
+        starWars = browser.page.amazonPage()
+        starWars
             .navigate()
     },
     after: browser => {
-        bezosSucks
+        starWars
             .end()
     },
     'Amazon Search': browser => {
         var search = 'Lego Star Wars'
-        bezosSucks
+        starWars
             .waitForElementVisible('@searchBar')
             .setValue('@searchBar', search)
             .click('@searchButton')
