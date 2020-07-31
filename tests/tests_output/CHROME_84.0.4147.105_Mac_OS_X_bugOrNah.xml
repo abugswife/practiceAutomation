@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="5"
+            failures="1"
+            tests="1">
+
+  <testsuite name="bugOrNah"
+    errors="5" failures="1" hostname="" id="" package="bugOrNah" skipped="0"
+    tests="1" time="48.28" timestamp="">
+  
+    <testcase name="Problem 5" classname="bugOrNah" time="48.28" assertions="1">  <failure message="Expected element &lt;name=&#34;phoneEntry&#34;]&gt; to have value not equal: &#34;8015551234&#34; - element was not found - expected &#34;not equal &#39;8015551234&#39;&#34; but got: &#34;not present&#34; (18ms)">    at Object.Problem 5 (/Users/bridavis/DevMountain/practiceAutomation/tests/bugOrNah.js:60:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    <error message="Error while running &#34;element&#34; command: Expected element &lt;name=&#34;phoneEntry&#34;]&gt; to have value not equal: [0;33m&#34;8015551234&#34;[0m - element was not found - expected [0;32m&#34;not equal &#39;8015551234&#39;&#34;[0m but got: [0;31m&#34;not present&#34;[0m[0;90m (18ms)[0m" type="error"><![CDATA[
+        at Object.Problem 5 (/Users/bridavis/DevMountain/practiceAutomation/tests/bugOrNah.js:60:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;[name=[&#34;employee4&#34;]&gt;:   (Session info: chrome=84.0.4147.105),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Mac OS X 10.15.6 x86_64); invalid selector: An invalid or illegal selector was specified
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;invalid selector: An invalid or illegal selector was specified&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=84.0.4147.105)&#34;,&#34;  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Mac OS X 10.15.6 x86_64)&#34;]},&#34;errorStatus&#34;:32,&#34;error&#34;:&#34;invalid selector: An invalid or illegal selector was specified&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .clearValue() command on &lt;[name=&#34;phoneEntry&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;ebf43cd2167be05cafb10d5f914e4cba&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;[name=&#34;phoneEntry&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;ebf43cd2167be05cafb10d5f914e4cba&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;[name=&#34;cancel&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;ebf43cd2167be05cafb10d5f914e4cba&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;[name=&#34;employee4&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;ebf43cd2167be05cafb10d5f914e4cba&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

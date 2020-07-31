@@ -1,15 +1,18 @@
-
+var google = {}
 module.exports = {
     beforeEach: browser => {
-        browser.url('https://www.google.com/')
+        google = browser.page.googlePage()
+        google
+            .navigate()
     },
     after: browser => {
-        browser.end()
+        google
+            .end()
     },
     'Rue': browser => {
-        browser
-            .setValue('input[name="q"]', ['@theedoodette', browser.Keys.ENTER])
-            .assert.containsText('#res', 'theedoodette')
+        google
+            .setValue('@searchBar', ['@theedoodette', browser.Keys.ENTER])
+            .verify.containsText('@results', 'theedoodette')
             .pause(10000)
 
     }

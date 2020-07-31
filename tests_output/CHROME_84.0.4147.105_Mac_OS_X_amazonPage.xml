@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="amazonPage"
+    errors="0" failures="0" hostname="" id="" package="amazonPage" skipped="0"
+    tests="1" time="4.601" timestamp="">
+  
+    <testcase name="Amazon Search" classname="amazonPage" time="4.601" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

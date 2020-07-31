@@ -1,116 +1,112 @@
-var yoodlize = {}
 module.exports = {
     beforeEach: browser => {
-        yoodlize = browser.page.yoodlizexPage()
-        yoodlize
-            .navigate()
+        browser.url('https://www.yoodlize.com/')
     },
     after: browser => {
-        yoodlize
-            .end()
+        browser.end()
     },
     'See all button-Rec Vehicles': browser => {
-        yoodlize
-            .useXpath()
-            .click('@seeALL')[1]
+        browser
+            .click('a[href="/s?category=91"]')
+            .pause(10000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=91')
             browser.back()
     },
     'See all buttons-Outdoor Gear': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[2]')
+        browser
+            .click('a[href="/s?category=84"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=84')
             browser.back()
     },
     'See all button-Electronics': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[3]')
+        browser
+            .click('a[href="/s?category=85"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=85')
             browser.back()
     },
     'See all buttons-Party & Wedding Equipment': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[4]')
+        browser
+            .click('a[href="/s?category=88"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=88')
             browser.back()
     },
     'See all buttons-Tools': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[5]')
+        browser
+            .click('a[href="/s?category=86"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=86')
             browser.back()
     },
     'See all buttons-Clothing': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[6]')
+        browser
+            .click('a[href="/s?category=74"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=74')
             browser.back()
     },
     'See all buttons-Home & Kitchen': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[7]')
+        browser
+            .click('a[href="/s?category=77"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=77')
             browser.back()
     },
     'See all buttons-Toys & Games': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[8]')
+        browser
+            .click('a[href="/s?category=87"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=87')
             browser.back()
     },
     'See all buttons-Lawn & Gardens': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[9]')
+        browser
+            .click('a[href="/s?category=93"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=93')
             browser.back()
     },
     'See all buttons-Sporting Goods': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[10]')
+        browser
+            .click('a[href="/s?category=76"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=76')
             browser.back()
     },
     'See all buttons-DVD & Video Games': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[11]')
+        browser
+            .click('a[href="/s?category=97"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=97')
             browser.back()
     },
     'See all buttons-Venues': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[12]')
+        browser
+            .click('a[href="/s?category=92"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=92')
             browser.back()
     },
     'See all buttons-Music': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[13]')
+        browser
+            .click('a[href="/s?category=96"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=96')
             browser.back()
     },
     'See all buttons-Business Equipment': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[14]')
+        browser
+            .click('a[href="/s?category=89"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=89')
             browser.back()
     },
     'See all buttons-Misc': browser => {
-        yoodlize
-            .useXpath()
-            .click('(@seeAll)])[15]')
+        browser
+            .click('a[href="/s?category=95"]')
+            .pause(15000)
             .assert.urlEquals('https://www.yoodlize.com/s?category=95')
             browser.back()
     },

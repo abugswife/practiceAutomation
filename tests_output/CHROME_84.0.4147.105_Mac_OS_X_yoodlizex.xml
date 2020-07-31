@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="yoodlizex"
+    errors="1" failures="0" hostname="" id="" package="yoodlizex" skipped="14"
+    tests="1" time="6.816" timestamp="">
+  
+    <testcase name="See all button-Rec Vehicles" classname="yoodlizex" time="6.816" assertions="0">
+    <error message="Element &#34;seeALL&#34; was not found in &#34;yoodlizex&#34;. Available elements: seeAll" type="error"><![CDATA[
+    Error: Element &#34;seeALL&#34; was not found in &#34;yoodlizex&#34;. Available elements: seeAll
+    at Command.validate (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:101:13)
+    at Command.getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:113:10)
+    at Command.parseElementSelector (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:153:39)
+    at Command.executeCommand (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:186:10)
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:55:25)
+    at Object.See all button-Rec Vehicles (/Users/bridavis/DevMountain/practiceAutomation/tests/yoodlizex.js:15:14)
+    at Context.call (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:379:35)
+    at TestCase.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
+    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:376:80)
+    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        Error: Element &#34;seeALL&#34; was not found in &#34;yoodlizex&#34;. Available elements: seeAll
+       at Object.See all button-Rec Vehicles (/Users/bridavis/DevMountain/practiceAutomation/tests/yoodlizex.js:15:14)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="See all buttons-Outdoor Gear" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all button-Electronics" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Party &amp; Wedding Equipment" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Tools" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Clothing" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Home &amp; Kitchen" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Toys &amp; Games" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Lawn &amp; Gardens" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Sporting Goods" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-DVD &amp; Video Games" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Venues" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Music" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Business Equipment" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See all buttons-Misc" classname="yoodlizex">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
